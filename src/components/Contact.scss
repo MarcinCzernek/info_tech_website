@@ -1,0 +1,131 @@
+.Contact{
+    background-color: lightgray;
+    text-align: center;
+
+    .opinion{
+     display: grid;
+     justify-content: center;
+     justify-items: center;
+     flex-direction: column;
+     row-gap: 40px;
+    }
+    .opinion_block{
+    background-color: gray;
+    display: grid;
+    border-radius: 15px;
+    max-width: 900px;
+    grid-template-areas: 'portrait'
+                         'person_name'
+                         'role'
+                         'quote';
+        .person_image{
+            grid-area: portrait;
+            justify-content: center;
+        }
+        .name{
+            grid-area: person_name;
+        }
+        .quote{
+            grid-area: quote;
+            margin-bottom: 50px;
+            margin-right: 50px;
+        }
+        .role{
+            grid-area: role;
+        }
+
+    }
+
+.opinion_block blocquote:before {
+    content: '"';
+}
+.opinion_block blocquote:after {
+    content: '"';
+}
+
+.faq{
+    details{
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 1em;
+        background-color: darkgrey;
+        border-radius: 15px;
+        justify-content: left;
+        text-align: left;
+    }
+    h2{
+
+    }
+    summary::marker{
+        color: #82e5ee;
+        font-size: 2em;
+        line-height: 0px;
+    }
+    p{
+        text-align: left;
+    }
+
+}
+
+.brands  {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+
+
+}
+.brands li {
+    padding: 50px;
+    background-color: darkgrey;
+    list-style: none;
+    display: inline-block;
+}
+    .contact_form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        margin: 5px 100px 0px 100px;
+        padding: 100px;
+
+        h3{
+         font-size: 1.5em;
+        }
+
+        input[type="email"]{
+            width: 300px;
+            font-size: 20px;
+        }
+        input[type="email"]{
+            width: 300px;
+            font-size: 20px;
+            font-size: 20px;
+            border: 2px grey groove;
+            background-color: #171717;
+            color: white;
+            border-radius: 10px;
+        }
+        textarea[type="Content"]{
+            width: 500px;
+            font-size: 20px;
+            border: 2px grey groove;
+            background-color: #171717;
+            color: white;
+            border-radius: 10px;
+        }
+        input[type="button"]{
+            font-size: 25px;
+            width: 100px;
+            margin-top: 30px;
+            float: bottom;
+        }
+        input, textarea{
+            border: none;
+        }
+
+    }
+
+}
+
+
+

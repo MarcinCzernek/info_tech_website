@@ -1,0 +1,41 @@
+.Nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1.2px;
+    ul{
+        list-style-type: none;
+        padding: 5px; /* add padding */
+        margin: 5px; /* add margins */
+        text-decoration: none;
+    }
+    button{
+        color: #171717;
+        border: none;
+        font-size: 30px;
+        background: none;
+    }
+    li{
+        display: inline-block;
+        margin-right: 90px;
+        font-size: 2em;
+    }
+    li:hover{
+        color: green;
+        animation-name: slideIn;
+        animation-duration: 1s;
+
+    }
+    @keyframes slideIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+}
+
+

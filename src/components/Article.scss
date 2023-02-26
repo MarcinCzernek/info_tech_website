@@ -1,0 +1,51 @@
+.Article{
+    background-color: white;
+    text-align: center;
+
+    #about{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+      padding: 25px 75px 200px 75px;
+      gap: 40px;
+    }
+     .about p {
+       font-size: 20px;
+     }
+  .about p:hover{
+      color: blue;
+    }
+
+    .about_block{
+      display: grid;
+    }
+    .feature{
+      display: grid;
+      text-align: left;
+
+      grid-template-areas: 'photo person'
+                           'photo role'
+                           'photo description';
+      background-color: darkgrey;
+
+
+      .item_photo{
+        grid-area: photo;
+        margin-left: 200px;
+      }
+      .item_person{
+        grid-area: person;
+      }
+      .item_role{
+        grid-area: role;
+      }
+      .item_description{
+        grid-area: description;
+
+
+
+      }
+
+    }
+
+}

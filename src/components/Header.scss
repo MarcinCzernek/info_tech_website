@@ -1,0 +1,28 @@
+.Header{
+    background-color: rgba(41, 92, 193, 0.20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1.2px;
+
+   button{
+   font-size: 15px;
+      border: none;
+      margin-right: 20px;
+   border-radius: 20px;
+    }
+    h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    color: #ffffff;
+    }
+    h1:first-letter{
+        color: blue;
+    }
+  h1:hover{
+    color: dodgerblue;
+  }
+
+}
