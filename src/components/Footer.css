@@ -3,4 +3,6 @@
     background-color: rgba(0, 0, 0, 0.59);
     padding: 80px;
     color: #ffffff;
+    background-image: url('../assets/frontend.jpg');
+    background-size: cover;
 }

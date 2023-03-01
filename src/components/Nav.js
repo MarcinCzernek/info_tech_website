@@ -1,7 +1,7 @@
 import './Nav.scss';
 
 const handleClickScroll = () => {
-    const element = document.getElementById('about');
+    const element = document.getElementById('about_title');
     if (element) {
         // 👇 Will scroll smoothly to the top of the next section
         element.scrollIntoView({ behavior: 'smooth' });

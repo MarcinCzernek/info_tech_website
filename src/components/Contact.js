@@ -3,11 +3,12 @@ import  './Contact.scss'
 import Slack from '../assets/slack.jpg'
 import GitCat from '../assets/GitHub.png'
 import CW from '../assets/logo.svg'
+import DropBox from '../assets/Dropbox-logo.png'
 
 const Contact = () =>{
     return (
         <div className="Contact">
-            <div className="opinion">
+            <div id="opinion">
                 <h2>Our customers opinions</h2>
             <div className="opinion_block">
                 <blocquote className="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse officiis quas recusandae temporibus vitae. Ad at beatae consequuntur dignissimos expedita, fugit inventore minus mollitia odit quam sint veniam voluptatem voluptatum.</blocquote>
@@ -60,6 +61,7 @@ const Contact = () =>{
     <li><img src={Slack} alt="" height="50px" weight="50px" /></li>
     <li><img src={GitCat} alt="" height="50px" weight="50px" /></li>
     <li><img src={CW} alt="" height="50px" weight="50px" /></li>
+    <li><img src={DropBox} alt="" height="50px" weight="50px" /></li>
 </ul>
 
  </div>

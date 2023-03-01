@@ -2,8 +2,14 @@
 text-align: center;
 padding: 100px;
 color: #ffffff;
+background-image: url(https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+
+    .info{
+    background: rgba(23,23,23,0.4);
+    }
     h1{
         font-size: 90px;
+        /*background: rgba(23,23,23,0.6);*/
     }
     button{
         padding:20px;

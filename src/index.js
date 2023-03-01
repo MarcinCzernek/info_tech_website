@@ -10,6 +10,7 @@ import Main from "./components/Main";
 import Article from "./components/Article"
 import Contact from "./components/Contact";
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

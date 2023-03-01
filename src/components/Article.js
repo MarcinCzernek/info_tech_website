@@ -15,8 +15,8 @@ const element3 = <FontAwesomeIcon icon={faNetworkWired}/>
 const Article = () =>{
     return (
         <div className="Article">
+            <h2 id="about_title">About us</h2>
                <div id="about">
-                   <h2>About us</h2>
                    <div className="about_block">
                        <p>{element}</p>
                        <h3>Lorem ipsum</h3>
@@ -36,8 +36,8 @@ const Article = () =>{
                </div>
             <div className="feature">
                 <img className="item_photo" src={graph} alt="" width="310px" height="310px" />
-                <h4 className="item_person">Lorem ospum</h4>
-                <h1 className="item_role">Lorem Ipsum</h1>
+                <h4 className="title">Lorem ospum</h4>
+                <h1 className="sub_title">Lorem Ipsum</h1>
                 <p className="item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium aut autem corporis, cum debitis error eveniet hic itaque, magnam nemo quia!</p>
             </div>
 
