@@ -43,6 +43,19 @@
             text-shadow: white;
         }
     }
+    @media screen and (max-width: 700px) {
+        li{
+            font-size: 1px;
+        }
+
+        button{
+            
+            font-size: 20px;
+            
+        }
+        
+    
+    }
 
 }
 

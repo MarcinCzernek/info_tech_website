@@ -1,0 +1,59 @@
+.Main {
+  text-align: center;
+  padding: 100px;
+  color: #ffffff;
+  background-image: url(https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+.Main .info {
+  background: rgba(23, 23, 23, 0.4);
+}
+
+.Main h1 {
+  font-size: 90px;
+  /*background: rgba(23,23,23,0.6);*/
+}
+
+.Main button {
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgba(0, 54, 102, 0.9);
+  border: none;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 10px;
+  color: #ffffff;
+}
+
+.Main button:hover {
+  /* background-color: rgba(0, 54, 102, 50%); */
+  animation-name: button_animation;
+  animation-duration: 2s;
+}
+
+.Main p {
+  font-size: 40px;
+}
+
+input[type="button"]:hover {
+  animation-name: button_animation;
+  animation-duration: 2s;
+}
+
+@keyframes button_animation {
+  from {
+    background-color: dodgerblue;
+  }
+  to {
+    background-color: #003666;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info h1 {
+    font-size: 40px;
+  }
+  .info p {
+    font-size: 23px;
+  }
+}
