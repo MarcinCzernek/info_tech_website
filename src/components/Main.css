@@ -26,9 +26,10 @@
 }
 
 .Main button:hover {
-  /* background-color: rgba(0, 54, 102, 50%); */
+  background-color: rgba(0, 54, 102, 50%);
   animation-name: button_animation;
   animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .Main p {
@@ -37,15 +38,16 @@
 
 input[type="button"]:hover {
   animation-name: button_animation;
-  animation-duration: 2s;
+  animation-duration: 5s;
+  animation-fill-mode:forwards;
 }
 
 @keyframes button_animation {
-  from {
-    background-color: dodgerblue;
+  0% {
+    transform: translateX(0);
   }
-  to {
-    background-color: #003666;
+  100% {
+    transform: translateX(100px);
   }
 }
 

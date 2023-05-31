@@ -15,7 +15,9 @@ const element3 = <FontAwesomeIcon icon={faNetworkWired}/>
 const Article = () =>{
     return (
         <div className="Article">
+            
             <h2 id="about_title">About us</h2>
+        
                <div id="about">
                    <div className="about_block">
                        <p>{element}</p>

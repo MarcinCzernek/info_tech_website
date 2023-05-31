@@ -31,6 +31,7 @@ const Contact = () =>{
             </div>
 
 <div className="faq">
+    <br />
 <h2>FAQ</h2>
 <details>
 <summary><h3>Lorem ipsum?</h3></summary>

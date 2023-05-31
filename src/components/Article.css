@@ -1,0 +1,70 @@
+.Article {
+  background-color: white;
+  text-align: center;
+}
+
+.Article #about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 25px 75px 200px 75px;
+  gap: 40px;
+}
+
+.Article .about p {
+  font-size: 20px;
+}
+
+.Article .about p:hover {
+  color: blue;
+}
+
+.Article .about_block {
+  display: grid;
+}
+
+.Article .feature {
+  display: grid;
+  text-align: left;
+  grid-template-areas: 'photo title'
+ 'photo sub_title'
+ 'photo description';
+  background-color: darkgrey;
+}
+
+.Article .feature .item_photo {
+  grid-area: photo;
+  margin-left: 450px;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.Article .feature .title {
+  grid-area: title;
+}
+
+.Article .feature .sub_title {
+  grid-area: sub_title;
+}
+
+.Article .feature .item_description {
+  grid-area: description;
+  max-width: 510px;
+  margin-right: 450px;
+}
+
+@media screen and (max-width: 700px) {
+  .Article .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Article .feature .item_photo {
+    grid-area: photo;
+    margin-left: 0px;
+  }
+  .Article .feature .item_description {
+    max-width: 200px;
+    margin-right: 0px;
+  }
+}
