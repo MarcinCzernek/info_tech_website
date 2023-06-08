@@ -102,24 +102,30 @@
             font-size: 20px;
             font-size: 20px;
             border: 2px grey groove;
-            background-color: #171717;
+            background: linear-gradient(to right, #0a0043, #171717);
             color: white;
             border-radius: 10px;
         }
         textarea[type="Content"]{
             width: 500px;
             font-size: 20px;
-            border: 2px grey groove;
-            background-color: #171717;
+            border: 5px grey groove;
+            background: linear-gradient(to right, #0a0043, #171717);
             color: white;
             border-radius: 10px;
             height:200px;
+            outline: none;
+            border-bottom: 2px solid white;
         }
         input[type="button"]{
             font-size: 25px;
             width: 100px;
             margin-top: 30px;
             float: bottom;
+        }
+        input[type="email"]{
+            outline: none;
+            border-bottom: 2px solid white;
         }
         input, textarea{
             border: none;

@@ -55,7 +55,7 @@ const Contact = () =>{
     </details>
 
 </div>
-            <h2>Trusted by brands</h2>
+            <h2>Companies that have trusted us</h2>
 <div className="brands">
 
 <ul>

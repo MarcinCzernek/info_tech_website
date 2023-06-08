@@ -51,8 +51,17 @@
 @media screen and (max-width: 700px) {
   .Nav li {
     font-size: 1px;
+    margin-right: px;
   }
   .Nav button {
     font-size: 20px;
+  }
+  .Nav ul {
+
+    padding: 0px;
+    /* add padding */
+    margin: 0px;
+    /* add margins */
+  
   }
 }

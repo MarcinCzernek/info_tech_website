@@ -26,9 +26,8 @@
 .Article .feature {
   display: grid;
   text-align: left;
-  grid-template-areas: 'photo title'
- 'photo sub_title'
- 'photo description';
+  grid-gap: 0px;
+  grid-template-areas: 'photo title' 'photo sub_title' 'photo description';
   background-color: darkgrey;
 }
 
@@ -53,7 +52,7 @@
   margin-right: 450px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1600px) {
   .Article .feature {
     display: flex;
     flex-direction: column;

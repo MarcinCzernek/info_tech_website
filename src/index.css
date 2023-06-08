@@ -15,7 +15,18 @@ code {
     monospace;
 }
 h2{
-  text-decoration: underline;
+/* text-decoration: underline; */
   font-size: 35px;
   padding-top: 50px;
+  position: relative;
+}
+
+h2::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Dopasuj wartość, aby ustawić pozycję podkreślenia */
+  width: 100%;
+  height: 1px; /* Grubość podkreślenia */
+  background-color: rgba(0, 0, 0, 0.3); /* Kolor podkreślenia z przezroczystością */
 }

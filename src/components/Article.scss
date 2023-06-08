@@ -20,6 +20,7 @@
     .feature{
       display: grid;
       text-align: left;
+      grid-gap: 0px;
 
       grid-template-areas: 'photo title'
                            'photo sub_title'
